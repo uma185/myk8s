@@ -9,7 +9,7 @@ spec:
     version: 2.6.2
   template: 
     metadata:
-    labels:
+      labels:
         app: myonlineapp
         version: 2.6.2
     spec:
