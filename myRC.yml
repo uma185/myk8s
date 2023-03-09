@@ -6,15 +6,16 @@ spec:
   replicas: 2
   selector:
     app: myonlineapp
-    version: 2.6.2
+    version: 2.6.1
   template: 
     metadata:
      labels:
         app: myonlineapp
-        version: 2.6.2
+        version: 2.6.1
     spec:
         containers:
         - name: myonlineapp-container
           image: umagurram/javaproject28feb:1
           ports:
           - containerPort: 8080
+          
